@@ -125,7 +125,13 @@ function save_extra_user_profile_fields( $user_id ) {
 	 flush_rewrite_rules(); 
 
 
-	add_filter( 'graphql_user_fields', function( $fields ) {
+	 
+
+
+
+
+
+	
 
 		$fields['socialLinks'] = [
 			'type' => new \WPGraphQL\Type\WPObjectType([
